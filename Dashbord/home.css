@@ -1,0 +1,269 @@
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  overflow-x: hidden !important;
+}
+
+/* Start Variables */
+
+:root {
+  /* Colors: */
+  --unnamed-color-3d3c3d: #3d3c3d;
+
+  /* Font/text values */
+  --unnamed-font-family: Cairo;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-32: 32px;
+  --section-padding: 56px;
+}
+
+/* End Variables */
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.navbar-brand {
+  top: 21px;
+  left: 1147px;
+  width: 80px;
+  height: 72px;
+  background: transparent url("../assets/logo_irched_ta2eh.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.navbar .navbar-nav .nav-link {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-16) / 30px var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-3d3c3d);
+  text-align: right;
+  font: normal normal 600 16px/30px Cairo;
+  letter-spacing: 0px;
+  color: #3d3c3d;
+  opacity: 1;
+}
+
+.icon img {
+  width: 24px;
+  height: 29px;
+}
+.icon {
+  width: 57px;
+  height: 45px;
+  background: #ececec 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_button {
+  background: #d2a260 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #00000029;
+  border-radius: 15px;
+  opacity: 1;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-16) / 30px var(--unnamed-font-family-cairo) !important;
+  letter-spacing: var(--unnamed-character-spacing-0) !important;
+  text-align: center;
+  font: normal normal 600 16px/30px Cairo !important;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 133px;
+  height: 60px;
+  top: 27px;
+  left: 405px;
+}
+.nav_button:hover {
+  border: none;
+  background: #d2a260 0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+.nav_button_green {
+  top: 27px;
+  left: 139px;
+  width: 117px;
+  height: 60px;
+  background: #2d652f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #00000029;
+  border-radius: 15px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-16) / 30px var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal 600 16px/30px Cairo;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.nav_button_green:hover {
+  background: #2d652f 0% 0% no-repeat padding-box;
+  border: none;
+  color: #ffffff;
+}
+
+.dashbord_title {
+  width: 250px;
+  height: 60px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  font: normal normal bold 32px/60px Cairo;
+  letter-spacing: 0px;
+  color: #2d652f;
+  margin-top: 39px;
+}
+.dash_img1 {
+  width: 387px;
+  height: 192px;
+  border-radius: 20px;
+  margin-top: 19px;
+}
+.subject p,
+.goals p {
+  height: 45px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  font: normal normal 600 24px/45px Cairo;
+  letter-spacing: 0px;
+}
+.subject span,
+.goals span {
+  color: #d2a260;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  font: normal normal 600 24px/45px Cairo;
+  letter-spacing: 0px;
+}
+.accordion-item {
+  margin-top: 32.5px;
+}
+.begin_button {
+  width: 1098px;
+  height: 55px;
+  background: #2d652f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #34cee01a;
+  border-radius: 15px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    26px/49px var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal 600 26px/49px Cairo;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.fa-unlock {
+  width: 18px;
+  height: 23px;
+
+  color: #ffffff;
+}
+.unlock_icon {
+  width: 46px;
+  height: 46px;
+  background: #2d652f 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.user_image {
+  width: 46px;
+  height: 46px;
+  background: #ee5536 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #e73c4c34;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+.arrow_icon {
+  width: 10px;
+  height: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+}
+.user_name {
+  height: 26px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  letter-spacing: 0px;
+  color: #2d652f;
+  margin-right: 24px;
+}
+.video_img {
+  width: 1096px;
+  height: 501px;
+  margin-top: 24px;
+  border-radius: 20px;
+}
+.accordion-item {
+  border: none;
+}
+/* ------------------CSS Loading page -------------- */
+.roww {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.img-loading {
+  /* Layout Properties */
+  top: 304px;
+  left: 631px;
+  width: 99px;
+  height: 68px;
+  /* UI Properties */
+  background: transparent url("../assets/Groupe 1411.svg") 0% 0% no-repeat;
+  opacity: 1;
+}
+.desc-loading p {
+  left: 509px;
+  width: 336px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.desc-loading span {
+  top: 0px;
+  left: 69px;
+  width: 125px;
+  font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16) /
+    30px var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal bold 16px/30px Cairo;
+  letter-spacing: 0px;
+  color: #2d652f;
+}
+.loading-item {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 320px) {
+  .desc-loading p {
+    font-size: 14px;
+  }
+}
