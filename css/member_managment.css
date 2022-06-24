@@ -1,0 +1,122 @@
+/* table*/
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  padding: 12px 15px;
+
+  text-align: center;
+  font-size: 16px;
+  border: none;
+}
+.table thead tr th {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  color: #9aa0ac !important;
+}
+.table th {
+  background-color: #92c9e6;
+  color: #ffffff;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f4f4f4;
+
+  color: #434341;
+}
+
+/*responsive*/
+
+@media (max-width: 500px) {
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+  .table tr {
+    margin-bottom: 15px;
+  }
+  .table td {
+    padding-left: 50%;
+    text-align: left;
+    position: relative;
+  }
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+.list-member {
+  width: 110px;
+  height: 33px;
+
+  font: var(--unnamed-font-style-normal) normal bold 18px/33px
+    var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  font: normal normal bold 18px/33px Cairo;
+  letter-spacing: 0px;
+  color: #2d652f;
+}
+
+td .user-img {
+  background: #9aa0ac57;
+  padding: 10px;
+  border-radius: 50%;
+}
+tr th {
+  font-weight: 400 !important;
+}
+.crud-button {
+  padding: 0px !important;
+}
+.new-member_managment .submit {
+  width: 157px;
+  height: 50px;
+  background: #2d652f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #00000029;
+  border-radius: 15px;
+  color: #ffffff;
+  border: none;
+  opacity: 1;
+}
+.case select {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #9aa0ac;
+  border-radius: 15px;
+}
+.add_case {
+  width: 340px;
+  height: 32px;
+  font: var(--unnamed-font-style-normal) normal bold 18px/33px
+    var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  font: normal normal bold 18px/33px Cairo;
+  letter-spacing: 0px;
+  color: #2d652f;
+  opacity: 1;
+}
+.add_case_button {
+  width: 95px;
+  height: 38px;
+  background: #2d652f 0% 0% no-repeat padding-box;
+  border-radius: 19px;
+  opacity: 1;
+  color: #ffffff;
+}

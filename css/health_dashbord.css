@@ -1,0 +1,78 @@
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  overflow-x: hidden !important;
+}
+
+/* Start Variables */
+
+:root {
+  /* Colors: */
+  --unnamed-color-3d3c3d: #3d3c3d;
+  /* Font/text values */
+  --unnamed-font-family: Cairo;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-32: 32px;
+  --section-padding: 56px;
+}
+
+/* End Variables */
+#health_dashbord {
+  margin-top: 50px;
+}
+html body,
+.content-header-gray {
+  background-color: #ffff;
+}
+.page-title {
+  padding-top: 30px;
+}
+.card-body {
+  width: 246px;
+  height: 130px;
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+}
+#health_dashbord .card .card-title {
+  width: 149px;
+  height: 32px;
+  font-size: 14px;
+  text-align: right;
+  font: normal normal bold 14px/26px Cairo;
+  letter-spacing: 0px;
+  color: #434341 !important;
+}
+.card-textt {
+  width: 92px;
+  height: 59px;
+  font-size: 32px;
+  text-align: right;
+  font: normal normal bold 32px/60px Cairo;
+  letter-spacing: 0px;
+  color: #d2a260;
+}
+.welcome_text {
+  width: 1000px;
+  height: 41px;
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+}
+.welcome_text p {
+  height: 30px;
+  font: var(--unnamed-font-style-normal) normal normal
+    var(--unnamed-font-size-16) / 30px var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  font: normal normal normal 16px/30px Cairo;
+  letter-spacing: 0px;
+  color: #434341;
+  opacity: 1 !important;
+}
+.content-body {
+  padding-top: 20px;
+}

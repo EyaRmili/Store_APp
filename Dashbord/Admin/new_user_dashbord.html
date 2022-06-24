@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+  <!-- BEGIN: Head-->
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="PIXINVENT" />
+    <title></title>
+    <link
+      rel="apple-touch-icon"
+      href="./app-assets/images/ico/apple-icon-120.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./app-assets/images/ico/favicon.ico"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+      rel="stylesheet"
+    />
+
+    <!-- BEGIN: Vendor CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/vendors/css/vendors-rtl.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/vendors/css/charts/apexcharts.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/vendors/css/extensions/toastr.min.css"
+    />
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/bootstrap-extended.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/colors.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/components.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/themes/dark-layout.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/themes/bordered-layout.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/themes/semi-dark-layout.css"
+    />
+
+    <!-- BEGIN: Page CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/core/menu/menu-types/vertical-menu.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/pages/dashboard-ecommerce.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/plugins/charts/chart-apex.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/plugins/extensions/ext-component-toastr.css"
+    />
+    <link rel="stylesheet" href="../home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./app-assets/css-rtl/custom-rtl.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style-rtl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/css-circular-prog-bar.css"
+    />
+    <!-- END: Custom CSS-->
+  </head>
+  <!-- END: Head-->
+
+  <!-- BEGIN: Body-->
+
+  <body
+    class="vertical-layout vertical-menu-modern navbar-floating footer-static"
+    data-open="click"
+    data-menu="vertical-menu-modern"
+    data-col=""
+  >
+    <!-- BEGIN: Header-->
+    <nav
+      class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-shadow"
+    >
+      <div class="container-xxl">
+        <div class="logolms mobile">
+          <img src="../app-assets/images/logolms.png" alt="lms Kids" />
+        </div>
+        <div class="navbar-container d-flex content">
+          <div class="bookmark-wrapper d-flex align-items-center">
+            <ul class="nav navbar-nav d-xl-none">
+              <li class="nav-item">
+                <a class="nav-link menu-toggle" href="#"
+                  ><i class="ficon" data-feather="menu"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="content-header">
+            <div
+              class="navbar_menu d-flex align-items-center justify-content-between"
+            >
+              <div
+                class="brand d-flex align-items-center justify-content-center"
+              >
+                <span class="cercle_notif"></span>
+                <div
+                  class="notif d-flex align-items-center justify-content-center"
+                >
+                  <img src="../../assets/notifications.svg" alt="" />
+                </div>
+                <div
+                  class="icon_black d-flex align-items-center justify-content-center m-2"
+                >
+                  <img src="../../assets/icon_black_white.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="user_name">مرحبا مستخدم جديد</p>
+                <div class="user_image">
+                  <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="arrow_icon">
+                  <i class="fa-solid fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END: Header-->
+
+    <!-- BEGIN: Main Menu-->
+    <div
+      class="main-menu menu-fixed menu-light menu-accordion menu-shadow"
+      data-scroll-to-active="false"
+    >
+      <!--a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a-->
+
+      <div class="main-menu-content">
+        <div class="logolms desktop">
+          <img src="../../assets/Groupe 1413.svg" alt="lms Kids" />
+        </div>
+
+        <ul
+          class="navigation navigation-main"
+          id="main-menu-navigation"
+          data-menu="menu-navigation"
+        >
+          <li class="nav-item">
+            <a class="d-flex align-items-center active" href="index.html"
+              ><img class="home-sid" src="../../assets/icon-1-sid.svg" />
+              <span class="menu-title">الرئيسية</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="d-flex align-items-center" href="index.html"
+              ><img class="home-sid" src="../../assets/icon2-sid.svg" />
+              <span class="menu-title">قائمتي</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="d-flex align-items-center" href="index.html"
+              ><img class="home-sid" src="../../assets/icon-3-sid.svg" />
+              <span class="menu-title">التائهون </span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="d-flex align-items-center" href="index.html"
+              ><img class="home-sid" src="../../assets/icon-4-sid.svg" />
+              <span class="menu-title"> المشرفين </span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="d-flex align-items-center" href="index.html"
+              ><img class="home-sid" src="../../assets/icon-5-sid.svg" />
+              <span class="menu-title"> الإدارة </span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+      <div class="content-overlay"></div>
+      <div class="content-wrapper container-xxl">
+        <div class="content-body">
+          <!-- Dashboard Ecommerce Starts -->
+          <section id="dashboard-home">
+            <div class="welcome_text">
+              <p>مرحبا بكم في منصة ارشاد التائه</p>
+            </div>
+            <div
+              class="filter d-flex align-items-center justify-content-between"
+            >
+              <div
+                class="filter1 d-flex align-items-center justify-content-center"
+              >
+                <p class="page-title">التائهين</p>
+
+                <!-- Actual search box -->
+                <div
+                  class="form-group form-search has-search input-search d-flex align-items-center"
+                >
+                  <span class="fa fa-search form-control-feedback"></span>
+
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="بحث في القائمة"
+                  />
+                </div>
+              </div>
+              <div
+                class="filter2 d-flex align-items-center justify-content-space-around"
+                onclick="myFunction()"
+              >
+                <button class="filter_b dropdown-toggle" type="button">
+                  فلتر
+                </button>
+
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="add_modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <img class="add_icon" src="../../assets/add.svg" alt="" />
+
+                  أضف تائه جديد
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Modal title
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">...</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Start Filter Section-->
+            <div class="filter-section">
+              <div id="myDIV">
+                <p class="filter">فلتر</p>
+                <div class="radio_buttons d-flex align-items-center">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadio1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      اضافاتي
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadio2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      الكل
+                    </label>
+                  </div>
+                </div>
+                <div class="date_interval d-flex">
+                  <p class="period">الفترة بين</p>
+                  <input
+                    type="date"
+                    dir="rtl"
+                    class="form-control date"
+                    placeholder=""
+                    lang="en"
+                  />
+                  <input
+                    type="date"
+                    dir="rtl"
+                    class="form-control date"
+                    placeholder="test"
+                    lang="en"
+                  />
+                </div>
+                <button class="btn activate">تفعيل</button>
+              </div>
+            </div>
+
+            <!--End Filter Section-->
+            <div class="container all">
+              <p>الكل</p>
+            </div>
+
+            <div class="d-flex justify-content-around block-cards">
+              <!-- Medal Card -->
+
+              <div class="card_item d-flex justify-content-around">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-around"
+                >
+                  <div
+                    class="user_icon2 d-flex justify-content-center align-items-center"
+                  >
+                    <img src="../../assets/user2_icon.svg" alt="" />
+                  </div>
+                  <div
+                    class="new d-flex justify-content-center align-items-center"
+                  >
+                    <span>جديد</span>
+                  </div>
+                </div>
+                <div class="infos_user">
+                  <p class="para-name">أحمد بن رمضان العبيدي</p>
+                  <div class="d-flex justify-content-around align-items-center">
+                    <div class="bg-gray para-name">
+                      <p>تونس</p>
+                    </div>
+                    <div class="bg-gray">
+                      <p>50 سنة</p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-around align-items-center days"
+                  >
+                    <p>الاربعاء 13-04-2022</p>
+                    <p>11.21</p>
+                  </div>
+                </div>
+                <div class="img-infos">
+                  <img src="../../assets/info_icon.svg" alt="" />
+                </div>
+              </div>
+              <!--/ Medal Card -->
+
+              <div class="card_item d-flex justify-content-around">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-around"
+                >
+                  <div
+                    class="user_icon2 d-flex justify-content-center align-items-center"
+                  >
+                    <img src="../../assets/user2_icon.svg" alt="" />
+                  </div>
+                  <div
+                    class="new d-flex justify-content-center align-items-center"
+                  >
+                    <span>جديد</span>
+                  </div>
+                </div>
+                <div class="infos_user">
+                  <p class="para-name">أحمد بن رمضان العبيدي</p>
+                  <div class="d-flex justify-content-around align-items-center">
+                    <div class="bg-gray para-name">
+                      <p>تونس</p>
+                    </div>
+                    <div class="bg-gray">
+                      <p>50 سنة</p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-around align-items-center days"
+                  >
+                    <p>الاربعاء 13-04-2022</p>
+                    <p>11.21</p>
+                  </div>
+                </div>
+                <div class="img-infos">
+                  <img src="../../assets/info_icon.svg" alt="" />
+                </div>
+              </div>
+              <!--/ Medal Card  -->
+
+              <div class="card_item d-flex justify-content-around">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-around"
+                >
+                  <div
+                    class="user_icon2 d-flex justify-content-center align-items-center"
+                  >
+                    <img src="../../assets/user2_icon.svg" alt="" />
+                  </div>
+                  <div
+                    class="new d-flex justify-content-center align-items-center"
+                  >
+                    <span>جديد</span>
+                  </div>
+                </div>
+                <div class="infos_user">
+                  <p class="para-name">أحمد بن رمضان العبيدي</p>
+                  <div class="d-flex justify-content-around align-items-center">
+                    <div class="bg-gray para-name">
+                      <p>تونس</p>
+                    </div>
+                    <div class="bg-gray">
+                      <p>50 سنة</p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-around align-items-center days"
+                  >
+                    <p>الاربعاء 13-04-2022</p>
+                    <p>11.21</p>
+                  </div>
+                </div>
+                <div class="img-infos">
+                  <img src="../../assets/info_icon.svg" alt="" />
+                </div>
+              </div>
+              <!--/ Medal Card -->
+
+              <!-- Medal Card -->
+
+              <div class="card_item d-flex justify-content-around">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-around"
+                >
+                  <div
+                    class="user_icon2 d-flex justify-content-center align-items-center"
+                  >
+                    <img src="../../assets/user2_icon.svg" alt="" />
+                  </div>
+                  <div
+                    class="new d-flex justify-content-center align-items-center"
+                  >
+                    <span>جديد</span>
+                  </div>
+                </div>
+                <div class="infos_user">
+                  <p class="para-name">أحمد بن رمضان العبيدي</p>
+                  <div class="d-flex justify-content-around align-items-center">
+                    <div class="bg-gray para-name">
+                      <p>تونس</p>
+                    </div>
+                    <div class="bg-gray">
+                      <p>50 سنة</p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-around align-items-center days"
+                  >
+                    <p>الاربعاء 13-04-2022</p>
+                    <p>11.21</p>
+                  </div>
+                </div>
+                <div class="img-infos">
+                  <img src="../../assets/info_icon.svg" alt="" />
+                </div>
+              </div>
+              <!--/ Medal Card -->
+
+              <div class="card_item d-flex justify-content-around">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-around"
+                >
+                  <div
+                    class="user_icon2 d-flex justify-content-center align-items-center"
+                  >
+                    <img src="../../assets/user2_icon.svg" alt="" />
+                  </div>
+                  <div
+                    class="new d-flex justify-content-center align-items-center"
+                  >
+                    <span>جديد</span>
+                  </div>
+                </div>
+                <div class="infos_user">
+                  <p class="para-name">أحمد بن رمضان العبيدي</p>
+                  <div class="d-flex justify-content-around align-items-center">
+                    <div class="bg-gray para-name">
+                      <p>تونس</p>
+                    </div>
+                    <div class="bg-gray">
+                      <p>50 سنة</p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-around align-items-center days"
+                  >
+                    <p>الاربعاء 13-04-2022</p>
+                    <p>11.21</p>
+                  </div>
+                </div>
+                <div class="img-infos">
+                  <img src="../../assets/info_icon.svg" alt="" />
+                </div>
+              </div>
+              <!--/ Medal Card  -->
+
+              <div class="card_item d-flex justify-content-around">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-around"
+                >
+                  <div
+                    class="user_icon2 d-flex justify-content-center align-items-center"
+                  >
+                    <img src="../../assets/user2_icon.svg" alt="" />
+                  </div>
+                  <div
+                    class="new d-flex justify-content-center align-items-center"
+                  >
+                    <span>جديد</span>
+                  </div>
+                </div>
+                <div class="infos_user">
+                  <p class="para-name">أحمد بن رمضان العبيدي</p>
+                  <div class="d-flex justify-content-around align-items-center">
+                    <div class="bg-gray para-name">
+                      <p>تونس</p>
+                    </div>
+                    <div class="bg-gray">
+                      <p>50 سنة</p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-around align-items-center days"
+                  >
+                    <p>الاربعاء 13-04-2022</p>
+                    <p>11.21</p>
+                  </div>
+                </div>
+                <div class="img-infos">
+                  <img src="../../assets/info_icon.svg" alt="" />
+                </div>
+              </div>
+              <!--/ Medal Card -->
+            </div>
+
+            <!-- start section two -->
+            <div class="box-details">
+              <p class="more-details">شاهد المزيد</p>
+            </div>
+            <!--end section two-->
+          </section>
+          <!-- Dashboard Ecommerce ends -->
+        </div>
+      </div>
+    </div>
+    <!-- END: Content-->
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="./app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="./app-assets/vendors/js/charts/apexcharts.min.js"></script>
+    <script src="./app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="./app-assets/js/core/app-menu.js"></script>
+    <script src="./app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+    <script src="./app-assets/circle-progress.min.js"></script>
+    <!-- BEGIN: Page JS-->
+    <script src="./app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      $(window).on("load", function () {
+        if (feather) {
+          feather.replace({
+            width: 14,
+            height: 14,
+          });
+        }
+      });
+    </script>
+  </body>
+  <!-- END: Body-->
+</html>

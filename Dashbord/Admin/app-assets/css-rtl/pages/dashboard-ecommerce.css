@@ -1,0 +1,222 @@
+.card-statistics .statistics-body {
+    padding: 2rem 2.4rem !important;
+}
+
+@media (max-width: 991.98px) {
+    .card-statistics .card-header,
+    .card-statistics .statistics-body {
+        padding: 1.5rem !important;
+    }
+}
+
+.card-company-table thead th {
+    border: 0;
+}
+
+.card-company-table td {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: right;
+    color: #191f56;
+    padding: 3px 15px;
+}
+
+.card-company-table .nbre {
+    text-align: left;
+}
+
+.card-company-table td .avatar {
+    background-color: #F8F8F8;
+    margin-left: 2rem;
+}
+
+.card-company-table td .avatar img {
+    border-radius: 0;
+}
+
+.card-browser-states .browser-states:first-child {
+    margin-top: 0;
+}
+
+.card-browser-states .browser-states:not(:first-child) {
+    margin-top: 1.7rem;
+}
+
+.card-transaction .transaction-item:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.blkTopprogress {
+    padding: 0;
+    margin: 0 0 30px;
+    background: transparent;
+    border-radius: 0;
+}
+
+.content-wrapper.Topprogress {
+    display: flex;
+    overflow: hidden;
+    padding: 20px 14px 20px 16px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.36;
+    color: #271344;
+}
+
+.content-wrapper.Topprogress>* {
+    display: inline-table;
+    float: right;
+}
+
+.content-wrapper.Topprogress ul.nav.navbar-nav li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.content-wrapper.Topprogress .progress {
+    width: 60%;
+    /* margin-top: 20px; */
+    margin: 0 25px;
+}
+
+section#dashboard-home h1 {
+    margin: 0 0 40px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: right;
+    color: #191f56;
+}
+
+@media(max-width:1400px) {
+    #dashboard-home .card-title {
+        min-height: 43px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .logolms {
+        margin: 15px auto 10px;
+        text-align: center;
+        width: 238px;
+        float: none;
+    }
+    .navbar-floating .navbar-container:not(.main-menu-content) {
+        padding: 0.8rem 0;
+    }
+    h1.titlePage {
+        font-size: 25px;
+        padding: 21px 0 0;
+    }
+}
+
+@media(max-width:700px) {
+    /* .bookmark-wrapper.d-flex.align-items-center{
+    position:absolute;top:-70px
+  } */
+    h1.titlePage {
+        float: right;
+        display: inline-block
+    }
+    .header-navbar .navbar-container ul.navbar-nav li {
+        display: inline-block;
+        float: left;
+        margin: 0 10px 8px;
+    }
+    .avatar {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media(max-width:400px) {
+    /* .navbar-floating .navbar-container:not(.main-menu-content) {
+        display: block !important;
+    } */
+    h1.titlePage {
+        font-size: 20px;
+        padding: 10px 15px 10px;
+        display: block;
+        float: none;
+    }
+    .header-navbar .navbar-container ul.navbar-nav li {
+        margin: 0 5px 8px;
+    }
+    .header-navbar .navbar-nav {
+        display: block !important
+    }
+    .header-navbar .navbar-container ul.navbar-nav li.dropdown-user {
+        float: left;
+        display: inline-block
+    }
+    .header-navbar li.nav-item.dropdown.dropdown-cart {
+        float: right;
+        display: inline-block
+    }
+}
+
+.iconlmam {
+    margin: -10px auto;
+    z-index: 9;
+    position: relative;
+}
+
+.MenuleftMam {
+    height: auto !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.MenuleftMam.main-menu .main-menu-content {
+    background: #fff;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.07);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.listchildren>* {
+    display: inline-block;
+    float: right;
+    margin: 10px 0 10px 15px;
+}
+
+.imgchild a img {
+    border-radius: 50%;
+}
+
+.imgchild a {
+    border-radius: 50%;
+    border: solid 3px transparent;
+    display: inline-block;
+    padding: 3px;
+    transition: all 0.3s;
+}
+
+.imgchild a:hover {
+    border: solid 3px #fb44ac;
+}
+
+a.addChildren {
+    border-radius: 50%;
+    background: #fff;
+    width: 86px;
+    height: 86px;
+    text-align: center;
+    display: inline-grid;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #271344;
+    transition: all .3s;
+    float: left;
+}
+
+a.addChildren:hover {
+    background: #f73183;
+    color: #fff;
+}
